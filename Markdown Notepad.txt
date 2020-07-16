@@ -1,0 +1,28 @@
+Sunburst
+Sunburst plots visualize hierarchical data spanning outwards radially from root to leaves. The sunburst sector hierarchy is determined by the entries in labels (names in px.sunburst) and in parents. The root starts from the center and children are added to the outer rings.
+
+Usage
+Sunburst chart orders shelter costs, by neighbourhood, by year in a hierarchial manner. Clicking on chart provides a deep dive on any particular year. Colour palette on the side provides a continuum of costs (lighter is more expensive).
+Reset back to original graph acheived by clicking again on the sunburst graph.
+
+
+Facet Bar
+A facet bar graph partitions a plot into a matrix of panels. Each panel shows a different subset of the data - in this facet each panel shows average price by TOR neighbourhood at 4 data points at 5 year intervals - 2001,2006,2011 and 2016. The side colour palette presents a visual identification of ranges.
+The facet provides an ability to compare several data points (4years * appx 100 neighbpurhood) in a single image and greatly supports trend analysis. In this case the secular trend of increasing home prices across all neighbourhoods in TOR.
+
+
+The dashboard object is composed of 6 tabs to support viz and trend analysis of TOR home prices and shelter costs.
+1. Welcome Sheet:
+Introductory sheet with a stunning of TOR at night accompanied by an inspiring quote by Prince highlighting the city's soul
+
+2.Welcome
+Uses MAPBOX API to present a cartographic view of average price by neighbourhood. Size of each dot represents average hous value (larger the value, bigger the dot); the associated monthly shelter costs are coded on a continoux color palatte. Thus a large dot with a 'blueish' tinge represents a price with higher than average value and associated shelter costs. Hovering over a 'dot' presents significant detail on underlying price distribution including average house value, shelter costs and geospatial information by neighbourhood.
+
+3. Yearly Market Analysis
+This tab includes 4 bar charts produced on bokeh represent market supply of housing stock by category. For each year, dwelling types e.g. detached, condos are presented. While on an upward trend, number of dwelling types have not kept pace with price moves indicating that a shortage of supply has impacted 
+
+4.Shelter costs vs. Average value
+This tab includes line charts produced on bokeh. (link to bokeh)
+They represent average monthly shelter costs for owned and rented dwellings and also average home values. The correlations between these series are obvious. Uptrending home price values have resulted in higher shelter costs for both owned and rented accomodations creating likely an affordability problem. Shelter cost appreciation has grown significantly in relation to wages and inflation.
+
+
